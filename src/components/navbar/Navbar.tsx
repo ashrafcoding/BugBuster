@@ -9,7 +9,7 @@ import Image from "next/image"
 import { ModeToggle } from "./ModeToggle"
 
 
-export function Navbar() {
+export default function Navbar() {
   const pathname = usePathname()
 
   return (
